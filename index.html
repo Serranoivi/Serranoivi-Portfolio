@@ -10,10 +10,6 @@
   For business & inquires, contact me => syednisarhassan12@gmail.com
 -->
 
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,14 +18,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
   <title>
     Iván Serrano Nevado Portfolio.
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="keywords" content="Ivan Serrano UE5 C++ Videogames Programming Engineering" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -54,10 +48,8 @@
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
           <span>Iván Serrano Nevado</span>
         </h1>
-        <!-- Put a small paragraph about yourself -->
         <p>Computer engineer especialized in videogame programming.</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
@@ -73,18 +65,15 @@
         <h2>About Me</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p>
                I am a computer engineer with a specialization in game development and C++. I have hands-on experience on Unreal Engine 5 developing a videogame with a multidisciplinary team of twenty people. 
 				I am a quick learner who adapts easily to new tools and I am eager to contribute to new projects.
-				My strongest skills are my patient as well as my ability to work together with many different people.
+				My strongest skills are my patience as well as my ability to work together with many different people.
             </p>
-            <!-- Provide a link to your resume -->
             <a href="./docs/CV.pdf" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
             <img class="about__photo" src="./images/profileFoto.jpg" alt=""/>
           </div>
         </div>
@@ -100,61 +89,69 @@
         <h2>My Work</h2>
         <div class="work__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
+            <div class="work__box">
+                <div class="work__text">
+                    <h3>End Of Life</h3>
+                    <p>
+                        An Unreal Engine 5 third person action-adventure shooter in which the world you play in is a constantly changing special kind of Rubik Cube called Mirror Cube.
+                        Made as the final project of the Master's Degree with a multidisciplinary team.
+                    </p>
+                    <ul class="work__list">
+                        <li>C++</li>
+                        <li>UE5</li>
+                        <li>Tools</li>
+                        <li>Gameplay</li>
+                        <li>Profiling</li>
+                        <li>Level Streaming</li>
+                    </ul>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>End Of Life</h3>
-              <p>
-                An Unreal Engine 5 third person action-adventure shooter in which the world you play in is a constantly changing Rubik Cube.
-					Made as the final project of the Master's Degree with a multidisciplinary team.
-              </p>
-              <ul class="work__list">
-                <li>C++</li>
-                <li>UE5</li>
-                <li>Tools</li>
-                <li>Gameplay</li>
-                <li>Profiling</li>
-              </ul>
-
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/EOLImage.jpg" class="work__image" alt="Project 1" />
+                </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/EOLImage.jpg" class="work__image" alt="Project 1" />
-            </div>
+            <p>
+                I was in charge of making the world logic of the rubik cube, as well as all the optimizations that came with it in order to rotate thousands of assets in real time.
+                I also worked in a system to load and unload levels for optimization, and helped with other gameplay features.
+            </p>
+               <div class="gifs__box">
+                   <img class="work__gif" src="./images/gif1.gif">
+                   <!--<img class="work__gif" src="./images/gif1.gif">-->
+               </div>
+              </div>
           </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
 
 
-  <!-- ***** Contact ***** -->
+    <!-- ***** Contact ***** -->
 
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-	  
-      <div class="contact__info">
-        <a href="+34 635621056" class="btn">+34 635621056    </a>		
-      </div>
-	  
-	  <div class="row">
-		<a href="ivansn1999@yahoo.es" class="btn">ivansn1999@yahoo.es</a>
-	  </div>
-	   
-		<div class="row">
-			<a href="https://www.linkedin.com/in/iván-serrano-nevado-b71872132" title="Link to Linkdin Profile">
-				<img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-			</a>
-	   </div>
-	    	   
-    </div>
-  </section>
+                   <section class="contact" id="contact">
+                       <div class="row">
+                           <h2>Get in Touch</h2>
+                           <div class="contact__info">
+                               <span>Location: Madrid, Spain 28025</span>
+                           </div>
+                           <div class="contact__info">
+                               <span>Phone number: +34635621056</span>
+                           </div>
+                           <div class="contact__info">
+                               <span>E-mail address: ivansn1999@yahoo.es</span>
+                               <a href="mailto:ivansn1999@yahoo.es" class="btn">Contact</a>
+                           </div>
+                           <div class="row">
+                               <a href="https://www.linkedin.com/in/iván-serrano-nevado-b71872132" title="Link to Linkdin Profile">
+                                   <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+                               </a>
+                           </div>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+                       </div>
+                   </section>
+
+                   <a href="#top" class="back-to-top" title="Back to Top">
+                       <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+                   </a>
+                   <script src="./index.js"></script>
 </body>
 
 </html>
