@@ -438,12 +438,14 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__box {
     display: flex;
-    align-items: center;
+	flex-wrap:wrap;
+    align-items: flex-start;
 }
 
 .gif__box {
     display: flex;
-    align-items: center;
+	flex: 0 0 100%;
+    justify-content: center;
 }
 
 .work__gif {
@@ -477,6 +479,11 @@ body:not(.user-is-tabbing) a:focus {
 .work__text {
     flex: 0 0 50%;
 }
+
+.work__text_full {
+    flex: 0 0 100%;
+}
+
 
 .work__list {
     /* list-style-type: square; */
